@@ -1,2 +1,6 @@
 # PHP Alapok
-Scola
+Schola Europa Akadémia
+
+ ### SAJÁT JEGYZETEK, NEM HIVATALOS TANANYAGOK ###
+
+Szabad felhasználású
