@@ -77,7 +77,7 @@ echo "Lista random eleme: ".$list[$randomindex];
 
 // IF-ELSE
 
-$list = array("Albert", "Balázs", "Cecil", "Igor", "Kincső", "Kadosa");
+$list = array("Albert", "Balázs", "Cecil", "Igor");
 $lista = array();
 
 if(count($list) > 0) {
@@ -97,5 +97,6 @@ if(count($lista) > 0) {
 } else {
     echo "Nincsenek elemek a listában!";
 }
+
 
 ?>

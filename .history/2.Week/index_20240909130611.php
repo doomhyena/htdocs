@@ -98,4 +98,5 @@ if(count($lista) > 0) {
     echo "Nincsenek elemek a listában!";
 }
 
+
 ?>

@@ -77,25 +77,22 @@ echo "Lista random eleme: ".$list[$randomindex];
 
 // IF-ELSE
 
-$list = array("Albert", "Balázs", "Cecil", "Igor", "Kincső", "Kadosa");
+$list = array("Albert", "Balázs", "Cecil", "Igor");
 $lista = array();
 
-if(count($list) > 0) {
+
+
+if($list > 0) {
     $maxindex = count($list)-1;
+    echo "Max index: ".$maxindex;
+    echo "<br>";
     $randomindex = rand(0, $maxindex);
     echo "Random index: ".$randomindex;
-} else {
-    echo "Nincsenek elemek a listában!";
-}
+    echo "<br>";
+    echo "Lista random eleme: ".$list[$randomindex];
 
-echo "<br>";
-
-if(count($lista) > 0) {
-    $maxindex = count($lista)-1;
-    $randomindex = rand(0, $maxindex);
-    echo "Random index: ".$randomindex;
 } else {
-    echo "Nincsenek elemek a listában!";
+    echo "Nincsenek elemek a listában! ('list' lista)";
 }
 
 ?>
