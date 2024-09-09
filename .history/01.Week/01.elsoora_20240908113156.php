@@ -1,5 +1,5 @@
 <?php
-echo "<h2>1.hét</h2>";
+
 $nevem = "Csontos Kincső"; 
 echo $nevem;
 echo "<br>";
