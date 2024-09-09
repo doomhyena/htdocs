@@ -99,30 +99,6 @@ if(count($lista) > 0) {
     echo "Nincsenek elemek a listában!";
 }
 
-echo "<h3>2.Feladat</h3>";
-
-$listlist = array();
-
-$randomszam = rand(0, 1000);
-array_push($listlist, $randomszam);
-
-$randomszam = rand(0, 1000);
-array_push($listlist, $randomszam);
-
-$randomszam = rand(0, 1000);
-array_push($listlist, $randomszam);
-
-$randomszam = rand(0, 1000);
-array_push($listlist, $randomszam);
-
-$randomszam = rand(0, 1000);
-array_push($listlist, $randomszam);
-
-print_r($listlist);
-
-$maxindex = count($listlist)-1;
-$randomindex = rand(0, $maxindex);
-echo "<br>";
-echo $lista[$randomindex];
+echo "<h3>1.Feladat</h3>";
 
 ?>

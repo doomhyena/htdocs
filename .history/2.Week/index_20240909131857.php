@@ -76,7 +76,6 @@ echo "Lista random eleme: ".$list[$randomindex];
 // ------------------------------------------------
 
 // IF-ELSE
-echo "<h3>1.Feladat</h3>";
 
 $list = array("Albert", "Balázs", "Cecil", "Igor", "Kincső", "Kadosa");
 $lista = array();
@@ -98,31 +97,5 @@ if(count($lista) > 0) {
 } else {
     echo "Nincsenek elemek a listában!";
 }
-
-echo "<h3>2.Feladat</h3>";
-
-$listlist = array();
-
-$randomszam = rand(0, 1000);
-array_push($listlist, $randomszam);
-
-$randomszam = rand(0, 1000);
-array_push($listlist, $randomszam);
-
-$randomszam = rand(0, 1000);
-array_push($listlist, $randomszam);
-
-$randomszam = rand(0, 1000);
-array_push($listlist, $randomszam);
-
-$randomszam = rand(0, 1000);
-array_push($listlist, $randomszam);
-
-print_r($listlist);
-
-$maxindex = count($listlist)-1;
-$randomindex = rand(0, $maxindex);
-echo "<br>";
-echo $lista[$randomindex];
 
 ?>

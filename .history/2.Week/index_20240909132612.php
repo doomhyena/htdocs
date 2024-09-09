@@ -123,6 +123,5 @@ print_r($listlist);
 $maxindex = count($listlist)-1;
 $randomindex = rand(0, $maxindex);
 echo "<br>";
-echo $lista[$randomindex];
 
 ?>
