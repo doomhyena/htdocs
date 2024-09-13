@@ -188,16 +188,9 @@ for ($i = 0; $i < 10; $i++) {
     }
 }
 
-// Hozz létr egy üres listát majd generálj 10 random számot majd rakd bele őket a listába és írasd ki!
-
 echo "<h3>1.Feladat</h3>";
 
-for ($i = 0; $i < 10; $i++) {
-    $number = array();
-    $randnumver = rand(0, 100);
-    array_push($number, $randnumver);
-    print_r($number);
-}
+$forlist = array();
 
 
 ?>

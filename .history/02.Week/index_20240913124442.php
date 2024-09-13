@@ -196,7 +196,7 @@ for ($i = 0; $i < 10; $i++) {
     $number = array();
     $randnumver = rand(0, 100);
     array_push($number, $randnumver);
-    print_r($number);
+    print_r($forlist);
 }
 
 

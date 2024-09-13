@@ -193,10 +193,9 @@ for ($i = 0; $i < 10; $i++) {
 echo "<h3>1.Feladat</h3>";
 
 for ($i = 0; $i < 10; $i++) {
-    $number = array();
-    $randnumver = rand(0, 100);
-    array_push($number, $randnumver);
-    print_r($number);
+    $forlist = array();
+    array_push($forlist, $i);
+    print_r($forlist);
 }
 
 
