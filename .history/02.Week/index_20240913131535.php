@@ -212,7 +212,7 @@ for ($i = 0; $i < 20; $i++) {
 Hozz létre egy üres listát
 Generáltass számokat 0 és 10 között
 Írd ki a random számot
-Majd csinálj egy for ciklust ami 15x fut le
+Majd csinálj egy for ciklust ami 15 fut le
 Minden lefutáskor vizsgáld meg, hogy a random szám oszthatóe-e az $i aktuális értékével
 Ha osztható, add hozzá $i értéket a listához
 
@@ -220,17 +220,15 @@ Ha osztható, add hozzá $i értéket a listához
 
 echo "<h3>3.Feladat</h3>";
 
-$clist = array();
-$crandomnum = rand(0, 10);
-echo "$crandomnum";
-echo "<br>";   
+$virsli = array();
 
-for ($i = 1; $i < 15; $i++) {
-    if($crandomnum == 0) {
-        array_push($clist, $i);
-    }
-    print_r($clist);
-    echo "<br>";
+for ($i = 0; $i < 20; $i++) {
+    $kutya = rand(0, 1000);
+    if ($kutya%$i == 0) {
+        array_push($virsli, $kutya);
+    } 
+    print_r($virsli);
+    echo "<br>";   
 }
 
 ?>

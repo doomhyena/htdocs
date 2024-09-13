@@ -229,8 +229,8 @@ for ($i = 1; $i < 15; $i++) {
     if($crandomnum == 0) {
         array_push($clist, $i);
     }
-    print_r($clist);
-    echo "<br>";
+    print_r($clist);;
+    echo "<br>"
 }
 
 ?>

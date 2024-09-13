@@ -220,17 +220,18 @@ Ha osztható, add hozzá $i értéket a listához
 
 echo "<h3>3.Feladat</h3>";
 
-$clist = array();
-$crandomnum = rand(0, 10);
-echo "$crandomnum";
+$virsli = array();
+$kutya = rand(0, 10);
+echo "$kutya";
 echo "<br>";   
 
-for ($i = 1; $i < 15; $i++) {
-    if($crandomnum == 0) {
-        array_push($clist, $i);
-    }
-    print_r($clist);
-    echo "<br>";
+for ($i = 0; $i < 15; $i++) {
+
+    if ($kutya%$i == 0) {
+        array_push($virsli, $i);
+    } 
+    print_r($virsli);
+    echo "<br>";   
 }
 
 ?>
