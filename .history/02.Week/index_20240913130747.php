@@ -183,9 +183,9 @@ for ($i = 0; $i < 10; $i++) {
 // Hozz létr egy üres listát majd generálj 10 random számot majd rakd bele őket a listába és írasd ki!
 
 echo "<h3>1.Feladat</h3>";
-$number = array();
 
 for ($i = 0; $i < 10; $i++) {
+    $number = array();
     $randnumver = rand(0, 100);
     array_push($number, $randnumver);
     print_r($number);
@@ -194,9 +194,8 @@ for ($i = 0; $i < 10; $i++) {
 
 echo "<h3>2.Feladat</h3>";
 
-$kecske = array();
-
 for ($i = 0; $i < 20; $i++) {
+    $kecske = array();
     $szalami = rand(0, 1000);
     if ($szalami%2 == 0) {
         array_push($kecske, $szalami);
