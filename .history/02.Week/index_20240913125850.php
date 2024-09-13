@@ -199,6 +199,9 @@ for ($i = 0; $i < 20; $i++) {
     if ($szalami%2 == 0) {
         array_push($kecske, $szalami);
         print_r($kecske);
+    } else {
+        echo "$szalami/2 1 maradékot ad.";
+        echo "<br>";
     }
 }
 

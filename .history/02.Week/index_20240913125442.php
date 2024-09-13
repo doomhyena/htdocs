@@ -139,7 +139,7 @@ echo $lista[$randomindex];
 
 echo "<h2>2.óra Anyaga</h2>";
 
-/*
+
 // 10x kiírja nevemet
 
 
@@ -166,13 +166,13 @@ for ($i = 0; $i < 10; $i++) {
     echo $i;
     echo "<br>";
 }
-*/
+
 
 // Maradék ellenőrzése
 
 for ($i = 0; $i < 10; $i++) {
     if ($i%2 == 0) {
-        echo "$i/2 0 maradékot ad";
+        echo "$i/2 1 maradékot ad";
         echo "<br>";
     } else {
         echo "$i/2 1 maradékot ad.";
@@ -195,10 +195,13 @@ echo "<h3>2.Feladat</h3>";
 
 for ($i = 0; $i < 20; $i++) {
     $kecske = array();
-    $szalami = rand(0, 100);
-    if ($szalami%2 == 0) {
-        array_push($kecske, $szalami);
-        print_r($kecske);
+    $randnumver = rand(0, 100);
+    if ($i%2 == 0) {
+        array_push($number, $randnumver);
+        print_r($number);
+    } else {
+        echo "$i/2 1 maradékot ad.";
+        echo "<br>";
     }
 }
 
