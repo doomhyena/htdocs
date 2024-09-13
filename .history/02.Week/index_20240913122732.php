@@ -146,9 +146,6 @@ numver++;
 echo numver;
 */
 
-
-// 10x kiírja nevemet
-
 /*
 for ($i = 0; $i < 10; $i++) {
     echo "Csontos Kincső"; 
@@ -159,14 +156,13 @@ for ($i = 0; $i < 10; $i++) {
 // 10 Random számot ír ki
 
 /*
+
 for ($i = 0; $i < 10; $i++) {
     echo rand(0, 100);
     echo "<br>";
 }
+
 */
-
-// Kiírja az első 10 számot
-
 for ($i = 0; $i < 10; $i++) {
     echo $i;
     echo "<br>";
