@@ -138,17 +138,12 @@ echo $lista[$randomindex];
 // -----------------------------------------------------------------------------------------------------------------
 
 echo "<h2>2.óra Anyaga</h2>";
-/*
-$numver = 0;
 
-numver++;
-
-echo numver;
-*/
-
-for ($i = 0; $i < 10; $i++) {
-    echo "Csontos Kincső"; 
-    echo "<br>";
+if (feltétel) {
+    // kód
+} else {
+    // kód
 }
+
 
 ?>

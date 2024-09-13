@@ -147,8 +147,6 @@ echo numver;
 */
 
 for ($i = 0; $i < 10; $i++) {
-    echo "Csontos Kincső"; 
-    echo "<br>";
+    // kód
 }
-
 ?>
