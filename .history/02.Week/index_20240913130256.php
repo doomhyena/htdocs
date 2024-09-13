@@ -189,7 +189,6 @@ for ($i = 0; $i < 10; $i++) {
     $randnumver = rand(0, 100);
     array_push($number, $randnumver);
     print_r($number);
-    echo "<br>";
 }
 
 echo "<h3>2.Feladat</h3>";

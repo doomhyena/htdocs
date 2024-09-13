@@ -189,7 +189,6 @@ for ($i = 0; $i < 10; $i++) {
     $randnumver = rand(0, 100);
     array_push($number, $randnumver);
     print_r($number);
-    echo "<br>";
 }
 
 echo "<h3>2.Feladat</h3>";
@@ -199,9 +198,8 @@ for ($i = 0; $i < 20; $i++) {
     $szalami = rand(0, 100);
     if ($szalami%2 == 0) {
         array_push($kecske, $szalami);
-        print_r($kecske);
-        echo "<br>";
-    } 
+        print_r("$kecske <br>");
+    }
 }
 
 ?>
