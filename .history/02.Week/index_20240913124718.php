@@ -139,6 +139,13 @@ echo $lista[$randomindex];
 
 echo "<h2>2.óra Anyaga</h2>";
 
+$numver = 0;
+
+numver++;
+
+echo numver;
+
+
 
 // 10x kiírja nevemet
 
