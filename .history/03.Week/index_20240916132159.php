@@ -104,7 +104,7 @@ $paratlanok = 0;
 
 $lista = array();
 
-while (count($lista) < 50) {
+while (count($lista) < 50) { // 10 random szám
     $randomszam = rand(0, 1000);
 
     if (in_array($randomszam, $lista)) {

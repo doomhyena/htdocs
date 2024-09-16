@@ -98,21 +98,8 @@ $paratlanok = 0;
 
 echo "<h3>2.Feladat</h3>";
 
-$lista = array();
 $parosak = 0; 
 $paratlanok = 0;
-
-$lista = array();
-
-while (count($lista) < 50) {
-    $randomszam = rand(0, 1000);
-
-    if (in_array($randomszam, $lista)) {
-        echo "Ez a szám már benne van ($randomszam) <br>";
-    } else {
-        array_push($lista, $randomszam);
-    }
-}
 
 
 ?>

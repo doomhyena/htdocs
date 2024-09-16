@@ -94,25 +94,12 @@ echo "Legkisebb érték: $legkisebb";
 
 
 $paratlanok = 0;
-// Hozz létre egy üres listát, while ciklussal töltsd fel 50 rnadom számmak 0 és 1000 között. Készíts egy-egy $parosak = 0; ,  változót, for ciklussal viszfáld meg az összes számot, ha a kista adott eleme osztható kettővel akkor az értékét add hozzá a $parosak vátozókhoz, ha nem soztható kettővel akkor pedig a$paratlanokhzo
+// Hozz létre egy üres listát, while ciklussal töltsd fel 50 rnadom számmak 0 és 1000 között. Készíts egy-egy $parosak = 0; ,  változót, for ciklussal viszfáld meg az összes számot, ha a kista adott eleme osztható kettővel akkor az értékét add hozzá a $parosak vátozókhoz, ha nem soztható kettővel akkor pedig a
 
 echo "<h3>2.Feladat</h3>";
 
-$lista = array();
 $parosak = 0; 
 $paratlanok = 0;
-
-$lista = array();
-
-while (count($lista) < 50) {
-    $randomszam = rand(0, 1000);
-
-    if (in_array($randomszam, $lista)) {
-        echo "Ez a szám már benne van ($randomszam) <br>";
-    } else {
-        array_push($lista, $randomszam);
-    }
-}
 
 
 ?>

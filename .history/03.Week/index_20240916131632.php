@@ -98,13 +98,12 @@ $paratlanok = 0;
 
 echo "<h3>2.Feladat</h3>";
 
-$lista = array();
 $parosak = 0; 
 $paratlanok = 0;
 
 $lista = array();
 
-while (count($lista) < 50) {
+while (count($lista) < 10) { // 10 random szám
     $randomszam = rand(0, 1000);
 
     if (in_array($randomszam, $lista)) {
@@ -113,6 +112,5 @@ while (count($lista) < 50) {
         array_push($lista, $randomszam);
     }
 }
-
 
 ?>
