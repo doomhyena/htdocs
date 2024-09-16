@@ -172,11 +172,6 @@ while (count(i) < 100) {
         array_push($l, $r);
     }
 }
-;
 
-print_r($l);
-
-$nulla_otszaz = 0;
-$otszaz_ezer = 0
-// játkkulcs generátor
+print_r($l)
 ?>

@@ -151,32 +151,6 @@ while ($igaz_hamis) {
 
 // IDE MAJD EGY JÖN EGY LISTÁS FELADAT
 
-// tömbök a tömbökben jvöhőhéten + rendezések 024.09.16
+// tömbök a tömbökben jvöhőhéten + rendezések 2024.09.16
 
-echo "<h3>2.Feladat</h3>";
-
-/*
-
-Töltsd fel egy listát 100 darab különböző számmal 0 és 1000 között.
-for ciklus segítségével számold meg, hogy hány darab szám van 0 és 500, között és 501 és 1000 között.
-
-*/
-
-$i = array();
-
-while (count(i) < 100) {
-    // kód
-    $r = rand(0, 1000);
- 
-    if(!in_array($i, $r) {
-        array_push($l, $r);
-    }
-}
-;
-
-print_r($l);
-
-$nulla_otszaz = 0;
-$otszaz_ezer = 0
-// játkkulcs generátor
 ?>
