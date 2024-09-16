@@ -67,25 +67,6 @@ while (count($lista)) {
         array_push($lista, $randomszam);
     }
 }
-print_r($lista);
-echo "<br>";
 
-// $list = array();
-$legnagyobb = -1;
-$legkisebb = 1001;
-
-for ($i = 0; $i < count($lista); $i++) {
-    if($lista[$i] > $legnagyobb) {
-        $legnagyobb = $lista[$i];
-        echo "$lista[$i] nagyobb mint $legnagyobb, felülírom <br>";
-    }
-    if($lista[$i] < $legkisebb) {
-        $legkisebb = $lista[$i];
-        echo "$lista[$i] kisebb mint $legkisebb, felülírom <br>";
-    }
-}
-echo "Legnagyobb érték: $legnagyobb";
-echo "<br>";
-echo "Legkisebb érték: $legkisebb";
 
 ?>
