@@ -151,6 +151,6 @@ while ($igaz_hamis) {
 
 // IDE MAJD EGY JÖN EGY LISTÁS FELADAT
 
-// tömbök a tömbökben jvöhőhéten 2024.09.16
+// tömbök a tömbökben jvöhőhéten
 
 ?>
