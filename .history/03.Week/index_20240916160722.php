@@ -139,16 +139,26 @@ $listalista = array();
 
 while ($igaz_hamis) {
     $randomabb = rand(0, 20);
-    array_push($listalista, $randomabb);  
+    array_push($listalista, $randomabb);  // Szám hozzáadása a listához
 
-    print_r($listalista);  
-    echo "<br>";  
+    print_r($listalista);  // Kiíratás
+    echo "<br>";  // Újsor a jobb olvashatóságért
 
-    if (in_array(5, $listalista)) {  
-        $igaz_hamis = false;  
+    if (in_array(5, $listalista)) {  // Ellenőrzés, hogy van-e 5-ös szám a listában
+        $igaz_hamis = false;  // Ha van, kilép a ciklusból
     }
 }
 
-// IDE MAJD EGY JÖN EGY LISTÁS FELADAT
+
+
+    
+$listal = array();
+
+while (count($listal)) {
+    // kód
+    $randomsz = rand(0, 1000)
+
+    if(!ini_alter(_array($randomsz)))
+}
 
 ?>

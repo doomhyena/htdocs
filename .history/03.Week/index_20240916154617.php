@@ -113,8 +113,6 @@ while (count($lista) < 50) {
     }
 }
 
-print_r($lista);
-
 echo "<h2>2.óra Anyaga</h2>";
 echo "<h3>1.Feladat</h3>"; // Készíts egy 100 számból álló listát, amiben csak páros számok vannak!
 
@@ -130,25 +128,5 @@ while (count($list) < 100)  {
 
 print_r($list);
 
-// igaz-hamisin_array
-
-// Addig fusson a cilóklus, amíg nem találunk ötös számot a éistában
-
-$igaz_hamis = true;
-$listalista = array();
-
-while ($igaz_hamis) {
-    $randomabb = rand(0, 20);
-    array_push($listalista, $randomabb);  
-
-    print_r($listalista);  
-    echo "<br>";  
-
-    if (in_array(5, $listalista)) {  
-        $igaz_hamis = false;  
-    }
-}
-
-// IDE MAJD EGY JÖN EGY LISTÁS FELADAT
 
 ?>

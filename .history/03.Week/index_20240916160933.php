@@ -149,6 +149,5 @@ while ($igaz_hamis) {
     }
 }
 
-// IDE MAJD EGY JÖN EGY LISTÁS FELADAT
 
 ?>

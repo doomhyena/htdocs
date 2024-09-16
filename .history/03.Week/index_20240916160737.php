@@ -144,11 +144,21 @@ while ($igaz_hamis) {
     print_r($listalista);  
     echo "<br>";  
 
-    if (in_array(5, $listalista)) {  
+    if (in_array(5, $listalista)) {  /
         $igaz_hamis = false;  
     }
 }
 
-// IDE MAJD EGY JÖN EGY LISTÁS FELADAT
+
+
+    
+$listal = array();
+
+while (count($listal)) {
+    // kód
+    $randomsz = rand(0, 1000)
+
+    if(!ini_alter(_array($randomsz)))
+}
 
 ?>

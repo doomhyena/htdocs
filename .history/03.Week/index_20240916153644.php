@@ -89,11 +89,12 @@ echo "Legnagyobb érték: $legnagyobb";
 echo "<br>";
 echo "Legkisebb érték: $legkisebb";
 
-$paratlanok = 0;
-// Hozz létre egy üres listát, while ciklussal töltsd fel 50 rnadom számmak 0 és 1000 között. Készíts egy-egy $parosak = 0; ,  változót, for ciklussal viszfáld meg az összes számot, ha a kista adott eleme osztható kettővel akkor az értékét add hozzá a $parosak vátozókhoz, ha nem soztható kettővel akkor pedig a$paratlanokhzo
-
 
 */
+
+
+$paratlanok = 0;
+// Hozz létre egy üres listát, while ciklussal töltsd fel 50 rnadom számmak 0 és 1000 között. Készíts egy-egy $parosak = 0; ,  változót, for ciklussal viszfáld meg az összes számot, ha a kista adott eleme osztható kettővel akkor az értékét add hozzá a $parosak vátozókhoz, ha nem soztható kettővel akkor pedig a$paratlanokhzo
 
 echo "<h3>2.Feladat</h3>";
 
@@ -113,42 +114,10 @@ while (count($lista) < 50) {
     }
 }
 
-print_r($lista);
-
 echo "<h2>2.óra Anyaga</h2>";
-echo "<h3>1.Feladat</h3>"; // Készíts egy 100 számból álló listát, amiben csak páros számok vannak!
+echo "<h3>1.Feladat</h3>"; // Készíts egy 100 számból álló listát, amiben csak páros számok vannak
 
 $list = array();
 
-while (count($list) < 100)  {
-    $randomnumber = rand(0, 1000);
-
-    if ($randomnumber % 2 == 0 && !in_array($randomnumber, $list)) {
-        array_push($list, $randomnumber);
-    }
-}
-
-print_r($list);
-
-// igaz-hamisin_array
-
-// Addig fusson a cilóklus, amíg nem találunk ötös számot a éistában
-
-$igaz_hamis = true;
-$listalista = array();
-
-while ($igaz_hamis) {
-    $randomabb = rand(0, 20);
-    array_push($listalista, $randomabb);  
-
-    print_r($listalista);  
-    echo "<br>";  
-
-    if (in_array(5, $listalista)) {  
-        $igaz_hamis = false;  
-    }
-}
-
-// IDE MAJD EGY JÖN EGY LISTÁS FELADAT
 
 ?>
