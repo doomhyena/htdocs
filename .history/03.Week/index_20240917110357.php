@@ -12,36 +12,36 @@ echo "<h3>1.feladat</h3>";
 	 Ezt a random számot add hozzá a listához.
 	 Minden lefutáskor írasd ki a lista tartalmát.
 */
-	 $lista = array(); //lista létrerhozása
+	 $lista = array();
 	
-	 for($i=0;$i<20;$i++){ // for ciklus ami 20x fut let
+	 for($i=0;$i<20;$i++){
 		
-		 $randomszam = rand(0, 1000); //random szám generálása 0 és 1000 kzött
+		 $randomszam = rand(0, 1000);
 		
-		 array_push($lista, $randomszam); // belerakjuk a listába a randomszámot
+		 array_push($lista, $randomszam);
 		
-		 print_r($lista); // lista kiírása
-		 echo "<br>"; // sortörés
+		 print_r($lista);
+		 echo "<br>";
 		
 	 }
 	
-	$lista = array(); //lista létrerhozása
+	$lista = array();
 	
-	 while(count($lista) < 10){ // while ciklus létrehozása
+	 while(count($lista) < 10){
 		
-		 $randomszam = rand(0, 12); //random szám generálása 0 és 12 kzött
+		 $randomszam = rand(0, 12);
 		
-		 if(in_array($randomszam, $lista)){ // HA a szám szerepel már  a listában
+		 if(in_array($randomszam, $lista)){
 			
-			 echo "Ez a szám már benne van ($randomszam)<br>"; // kiírjuk, hogy a szám szerepl már a listában
+			 echo "Ez a szám már benne van ($randomszam)<br>";
 			
 		 }
-		 else{ // Ha nem szerepel a listában
+		 else{
 			
-			 array_push($lista, $randomszam); // belerakjuk a randomszámot a listába
+			 array_push($lista, $randomszam);
 		
-			 print_r($lista); // listakiírása
-			 echo "<br>"; //sortörés
+			 print_r($lista);
+			 echo "<br>";
 			
 		 }
 		
@@ -101,8 +101,6 @@ echo "<h3>1.feladat</h3>";
 	
 	 echo "Legnagyobb érték: $legnagyobb<br>";
 	 echo "Legkisebb érték: $legkisebb<br>";
-     echo "<h3>3.feladat</h3>";
-
 /*
 	 Feladat
 	
@@ -149,9 +147,6 @@ echo "<h3>1.feladat</h3>";
 	
 	 echo "<br>Páros számok összege: $parosak<br>";
 	 echo "Páratlan számok összege: $paratlanok";
-
-     echo "<h2>2.óra</h2>";
-     echo "<h3>1.feladat</h3>"; 
 	
 	//  Készíts egy 100 számból álló listát, amiben csak páros számok vannak.
 	
@@ -220,7 +215,7 @@ echo "<h3>1.feladat</h3>";
 		 if($lista[$i] == 100){
 			 $van_e_szaz = true;
 		}
-    }	
+		
 	
 	
 	print_r($lista);
@@ -232,7 +227,8 @@ echo "<h3>1.feladat</h3>";
 	 else{
 		 echo "A listában nincs 100.";
 	 }
-    
+     echo "<h2>2.óra</h2>";
+     echo "<h3>1.feladat</h3>";     
 /*	
 	 Feladat:
 	

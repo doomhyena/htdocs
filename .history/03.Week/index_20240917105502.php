@@ -1,8 +1,4 @@
 <?php 
-echo "<h1>3.hét</h1>";
-echo "<h2>1.óra</h2>";
-echo "<h3>1.feladat</h3>";
-
 /*
 	 Feladat: 
 		
@@ -12,36 +8,36 @@ echo "<h3>1.feladat</h3>";
 	 Ezt a random számot add hozzá a listához.
 	 Minden lefutáskor írasd ki a lista tartalmát.
 */
-	 $lista = array(); //lista létrerhozása
+	 $lista = array();
 	
-	 for($i=0;$i<20;$i++){ // for ciklus ami 20x fut let
+	 for($i=0;$i<20;$i++){
 		
-		 $randomszam = rand(0, 1000); //random szám generálása 0 és 1000 kzött
+		 $randomszam = rand(0, 1000);
 		
-		 array_push($lista, $randomszam); // belerakjuk a listába a randomszámot
+		 array_push($lista, $randomszam);
 		
-		 print_r($lista); // lista kiírása
-		 echo "<br>"; // sortörés
+		 print_r($lista);
+		 echo "<br>";
 		
 	 }
 	
-	$lista = array(); //lista létrerhozása
+	$lista = array();
 	
-	 while(count($lista) < 10){ // while ciklus létrehozása
+	 while(count($lista) < 10){
 		
-		 $randomszam = rand(0, 12); //random szám generálása 0 és 12 kzött
+		 $randomszam = rand(0, 12);
 		
-		 if(in_array($randomszam, $lista)){ // HA a szám szerepel már  a listában
+		 if(in_array($randomszam, $lista)){
 			
-			 echo "Ez a szám már benne van ($randomszam)<br>"; // kiírjuk, hogy a szám szerepl már a listában
+			 echo "Ez a szám már benne van ($randomszam)<br>";
 			
 		 }
-		 else{ // Ha nem szerepel a listában
+		 else{
 			
-			 array_push($lista, $randomszam); // belerakjuk a randomszámot a listába
+			 array_push($lista, $randomszam);
 		
-			 print_r($lista); // listakiírása
-			 echo "<br>"; //sortörés
+			 print_r($lista);
+			 echo "<br>";
 			
 		 }
 		
@@ -58,12 +54,11 @@ echo "<h3>1.feladat</h3>";
 	 }
 	
 	 print_r($lista);
-     echo "<h3>2.feladat</h3>";
-/*	
+	
 	 Feladat:
 	
 		 Tölts fel egy listát 100 darab random számmal 0 és 1000 között. (Egy szám csak egyszer szerepelhessen a listában)
-*/		
+		
 	 $lista = array();
 		
 	 while(count($lista) < 100){
@@ -101,9 +96,7 @@ echo "<h3>1.feladat</h3>";
 	
 	 echo "Legnagyobb érték: $legnagyobb<br>";
 	 echo "Legkisebb érték: $legkisebb<br>";
-     echo "<h3>3.feladat</h3>";
 
-/*
 	 Feladat
 	
 	 Hozz létre egy üres listát.
@@ -115,7 +108,7 @@ echo "<h3>1.feladat</h3>";
 	 For ciklussal vizsgáld meg az összes számot.
 	 Ha a lista adott eleme osztható kettővel, akkor az értékét add hozzá a $parosak változóhoz.
 	 Ha nem osztható kettővel, akkor pedig a $páratlanok-hoz.
-*/
+
 	 $lista = array();
 	
 	 while(count($lista) < 50){
@@ -149,11 +142,8 @@ echo "<h3>1.feladat</h3>";
 	
 	 echo "<br>Páros számok összege: $parosak<br>";
 	 echo "Páratlan számok összege: $paratlanok";
-
-     echo "<h2>2.óra</h2>";
-     echo "<h3>1.feladat</h3>"; 
 	
-	//  Készíts egy 100 számból álló listát, amiben csak páros számok vannak.
+	 Készíts egy 100 számból álló listát, amiben csak páros számok vannak.
 	
 	 $lista = array();
 	
@@ -175,11 +165,11 @@ echo "<h3>1.feladat</h3>";
 	
 	 print_r($lista);
 	
-	 // Igaz hamis
+	 Igaz hamis
 	 $igaz = true;
 	 $hamis = false;
 	
-	 // Addig fusson a ciklus, amíg nem találunk ötös számot a listában
+	 Addig fusson a ciklus, amíg nem találunk ötös számot a listában
 	
 	 $igaz_hamis = true;
 	
@@ -220,11 +210,11 @@ echo "<h3>1.feladat</h3>";
 		 if($lista[$i] == 100){
 			 $van_e_szaz = true;
 		}
-    }	
+		
 	
 	
 	print_r($lista);
-	echo "<br>";
+	/cho "<br>";
 	
 	 if($van_e_szaz){
 		 echo "A listában van 100.";
@@ -232,13 +222,12 @@ echo "<h3>1.feladat</h3>";
 	 else{
 		 echo "A listában nincs 100.";
 	 }
-    
-/*	
+	
 	 Feladat:
 	
 	 Tölts fel egy listát 100 darab különböző számmal 0 és 1000 között.
 	 For ciklus segítségével számold meg, hogy hány darab szám van 0 és 500, 501 és 1000 között.
-*/	
+	
 	$lista = array();
 	
 	while(count($lista) < 100){
@@ -264,10 +253,12 @@ echo "<h3>1.feladat</h3>";
 		else{
 			$otszazegy_ezer++;
 		}
-	}  // Ez a záró zárójel hiányzott
-
-	//játkkulcs generátor
-	//tömbök a tömbökben jövőhéten + rendezések 2024.09.16	
+		
+	}
+	
 	echo "0-500 között $nulla_otszaz elem van.<br>";
 	echo "501-1000 között $otszazegy_ezer elem van.";
+
+     játkkulcs generátor
+ tömbök a tömbökben jvöhőhéten + rendezések 024.09.16
 ?>

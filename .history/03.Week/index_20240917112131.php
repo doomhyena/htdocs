@@ -40,8 +40,8 @@ echo "<h3>1.feladat</h3>";
 			
 			 array_push($lista, $randomszam); // belerakjuk a randomszámot a listába
 		
-			 print_r($lista); // listakiírása
-			 echo "<br>"; //sortörés
+			 print_r($lista);
+			 echo "<br>";
 			
 		 }
 		
@@ -220,7 +220,7 @@ echo "<h3>1.feladat</h3>";
 		 if($lista[$i] == 100){
 			 $van_e_szaz = true;
 		}
-    }	
+		
 	
 	
 	print_r($lista);

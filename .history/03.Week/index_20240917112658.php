@@ -220,7 +220,7 @@ echo "<h3>1.feladat</h3>";
 		 if($lista[$i] == 100){
 			 $van_e_szaz = true;
 		}
-    }	
+		
 	
 	
 	print_r($lista);

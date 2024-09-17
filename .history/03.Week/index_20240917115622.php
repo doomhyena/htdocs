@@ -270,4 +270,3 @@ echo "<h3>1.feladat</h3>";
 	//tömbök a tömbökben jövőhéten + rendezések 2024.09.16	
 	echo "0-500 között $nulla_otszaz elem van.<br>";
 	echo "501-1000 között $otszazegy_ezer elem van.";
-?>

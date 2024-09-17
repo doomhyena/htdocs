@@ -18,30 +18,30 @@ echo "<h3>1.feladat</h3>";
 		
 		 $randomszam = rand(0, 1000); //random szám generálása 0 és 1000 kzött
 		
-		 array_push($lista, $randomszam); // belerakjuk a listába a randomszámot
+		 array_push($lista, $randomszam);
 		
-		 print_r($lista); // lista kiírása
-		 echo "<br>"; // sortörés
+		 print_r($lista);
+		 echo "<br>";
 		
 	 }
 	
-	$lista = array(); //lista létrerhozása
+	$lista = array();
 	
-	 while(count($lista) < 10){ // while ciklus létrehozása
+	 while(count($lista) < 10){
 		
-		 $randomszam = rand(0, 12); //random szám generálása 0 és 12 kzött
+		 $randomszam = rand(0, 12);
 		
-		 if(in_array($randomszam, $lista)){ // HA a szám szerepel már  a listában
+		 if(in_array($randomszam, $lista)){
 			
-			 echo "Ez a szám már benne van ($randomszam)<br>"; // kiírjuk, hogy a szám szerepl már a listában
+			 echo "Ez a szám már benne van ($randomszam)<br>";
 			
 		 }
-		 else{ // Ha nem szerepel a listában
+		 else{
 			
-			 array_push($lista, $randomszam); // belerakjuk a randomszámot a listába
+			 array_push($lista, $randomszam);
 		
-			 print_r($lista); // listakiírása
-			 echo "<br>"; //sortörés
+			 print_r($lista);
+			 echo "<br>";
 			
 		 }
 		
@@ -220,7 +220,7 @@ echo "<h3>1.feladat</h3>";
 		 if($lista[$i] == 100){
 			 $van_e_szaz = true;
 		}
-    }	
+		
 	
 	
 	print_r($lista);
