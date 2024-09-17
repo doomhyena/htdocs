@@ -29,15 +29,10 @@ echo "B és D hányadosa: $hanyados";
 
 echo "<h2> 5.Feladat </h2>";
 
-/*
 for ($i = 0; $i < 9; $i++) {
     if ($i%3 != 0) {
         echo "A maradék:".$i%3 ."<br>";
     }
-}
-*/
-for ($i = 0; $i <= 9; $i++) {
-    echo "A $i%3 maradéka: ".$i%3 ."<br>";
 }
 
 echo "<h2> 6.Feladat </h2>";
@@ -68,7 +63,5 @@ for ($i = 0; $i < 100; $i++) {
         echo"$i%15 maradéka 13. <br>";
     } 
 }
-
-
 
 ?>
