@@ -80,4 +80,4 @@ while(count($kecske) < 100) {
     if(!in_array($rando, $kecske)) {
         array_push($kecske, $rando);
     }
-} // Többdimenziós tömbök
+} // Többdimenziós 

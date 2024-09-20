@@ -74,10 +74,9 @@ echo "<h3>7.Feladat</h3>";
 
 $kecske = array();
 
-while(count($kecske) < 100) {
-    $rando = rand(0, 1000);
+for ($i = 0; $i < 100; $i++) {
+    $kolbasz = rand(1, 1000);
+    array_push($kecske, $kolbasz);
+}
 
-    if(!in_array($rando, $kecske)) {
-        array_push($kecske, $rando);
-    }
-} // Többdimenziós tömbök
+
