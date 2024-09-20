@@ -99,4 +99,4 @@ print_r($kecske);
 echo "<br>";
 echo "A legkisebb elem: $legkisebb";
 echo "<br>";
-echo "A legnayobb elem: $legnagyobb";
+echo "";

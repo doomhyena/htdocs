@@ -83,20 +83,8 @@ while(count($kecske) < 100) {
 } // Többdimenziós tömbök
 
 $legkisebb = 1001;
-$legnagyobb = -1;
+$leglegnagyobb = -1;
 
 for ($i = 0; $i < count($kecske); $i++) {
     // kód
-    if($kecske[$i] < $legkisebb ) {
-        $legkisebb = $kecske[$i];
-    }
-    if($kecske[$i] > $legnagyobb ) {
-        $legnagyobb = $kecske[$i];
-    }
 }
-
-print_r($kecske);
-echo "<br>";
-echo "A legkisebb elem: $legkisebb";
-echo "<br>";
-echo "A legnayobb elem: $legnagyobb";

@@ -94,9 +94,3 @@ for ($i = 0; $i < count($kecske); $i++) {
         $legnagyobb = $kecske[$i];
     }
 }
-
-print_r($kecske);
-echo "<br>";
-echo "A legkisebb elem: $legkisebb";
-echo "<br>";
-echo "A legnayobb elem: $legnagyobb";
