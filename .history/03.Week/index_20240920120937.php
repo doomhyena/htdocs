@@ -275,3 +275,33 @@ echo "<h3>1.feladat</h3>";
 	//tömbök a tömbökben jövőhéten + rendezések 2024.09.16	
 	echo "0-500 között $nulla_otszaz elem van.<br>";
 	echo "501-1000 között $otszazegy_ezer elem van.";
+	
+
+// -----------------------------------------------------------------------------------------------------------------
+// Harmadik óra 2024/09/09 HÉTFŐ
+// -----------------------------------------------------------------------------------------------------------------
+
+echo "<h1>3.hét</h1>";
+echo "<h2>3.óra</h2>";
+echo "<h2>Gyakroló Feladatsor</h2>";
+
+echo "<h3>1.Feladat</h3>";
+
+echo "Csontos Kincső";
+
+echo "<h3></h3>";
+echo "<h3></h3>";
+echo "<h3></h3>";
+echo "<h3></h3>";
+echo "<h3></h3>";
+echo "<h3></h3>";
+echo "<h3></h3>";
+echo "<h3></h3>";
+echo "<h3></h3>";
+echo "<h3></h3>";
+echo "<h3></h3>";
+echo "<h3></h3>";
+echo "<h3></h3>";
+echo "<h3></h3>";
+echo "<h3></h3>";
+echo "<h3></h3>";
