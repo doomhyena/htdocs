@@ -25,13 +25,12 @@ if ($a > $b) {
 } else {
     echo "$a és $b egyenlő";
 }
-// --------------------------------------------------------------------------------------------------------------------------------------------------
+
 /*
 
 2. Feladat
 
-    Feladat: Hozz létre egy $szam nevű változót, amely tartalmaz egy egész számot. 
-    Írj egy programot, amely megvizsgálja, hogy a szám pozitív, negatív, vagy nulla, és kiírja az eredményt.
+    Feladat: Hozz létre egy $szam nevű változót, amely tartalmaz egy egész számot. Írj egy programot, amely megvizsgálja, hogy a szám pozitív, negatív, vagy nulla, és kiírja az eredményt.
 
 */
 
@@ -39,13 +38,9 @@ echo "<h2>2.Feladat</h2>";
 
 $szam = 5;
 
-
-
-// --------------------------------------------------------------------------------------------------------------------------------------------------
-
 /*
 
-3.Feladat: Hozz létre egy $jegy változót, amely egy tanuló jegyét tartalmazza (1-5). Írd ki a megfelelő szöveget a jegyhez:
+Feladat: Hozz létre egy $jegy változót, amely egy tanuló jegyét tartalmazza (1-5). Írd ki a megfelelő szöveget a jegyhez:
 
     1: "Elégtelen"
     2: "Elégséges"
