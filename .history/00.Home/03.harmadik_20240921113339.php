@@ -94,8 +94,6 @@ print_r($paratlanok);
 
 */
 
-$szam = 5;
-
 echo "<h2>5.Feladat</h2>";
 echo "<h2>6.Feladat</h2>";
 echo "<h2>7.Feladat</h2>";

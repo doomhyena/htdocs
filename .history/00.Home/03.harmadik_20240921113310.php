@@ -88,13 +88,9 @@ print_r($paratlanok);
 
 5. Feladat
 
-    Feladat: Hozz létre egy $szam változót, amely egy pozitív egész számot tartalmaz. 
-    Írj egy programot, amely kiszámolja és kiírja a szám faktoriálisát! 
-    (A faktoriális egy szám összes pozitív egész számú osztójának szorzata, pl. 5 faktoriálisa: 5*4*3*2*1 = 120).
+    Feladat: Írj egy programot, amely egy for ciklussal 1-től 50-ig számol, és csak a páratlan számokat írja ki.
 
 */
-
-$szam = 5;
 
 echo "<h2>5.Feladat</h2>";
 echo "<h2>6.Feladat</h2>";
