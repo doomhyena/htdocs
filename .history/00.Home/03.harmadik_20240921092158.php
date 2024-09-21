@@ -36,7 +36,7 @@ if ($a > $b) {
 
 echo "<h2>2.Feladat</h2>";
 
-$szam = 5;
+
 
 echo "<h2>3.Feladat</h2>";
 echo "<h2>4.Feladat</h2>";
@@ -44,5 +44,3 @@ echo "<h2>5.Feladat</h2>";
 echo "<h2>6.Feladat</h2>";
 echo "<h2>7.Feladat</h2>";
 echo "<h2>8.Feladat</h2>";
-echo "<h2>9.Feladat</h2>";
-echo "<h2>10.Feladat</h2>";
