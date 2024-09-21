@@ -192,8 +192,7 @@ echo "<h2>9.Feladat</h2>";
 
 10. Feladat
 
-    Feladat: Írj egy programot, amely két számot kér be (pl. $a és $b), és egy for ciklussal kiírja a két szám közötti összes számot (beleértve őket is), 
-    növekvő sorrendben. Ha a második szám kisebb, mint az első, ne írjon ki semmit.
+    Feladat: Írj egy programot, amely két számot kér be (pl. $a és $b), és egy for ciklussal kiírja a két szám közötti összes számot (beleértve őket is), növekvő sorrendben. Ha a második szám kisebb, mint az első, ne írjon ki semmit.
 
 */
 
