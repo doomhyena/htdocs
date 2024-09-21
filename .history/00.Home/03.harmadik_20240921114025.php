@@ -117,8 +117,6 @@ $szam = 5;
 
 */
 
-echo "<h2>6.Feladat</h2>";
-
 $eletkor = 15;
 
 if ($eletkor < 12) {
@@ -138,15 +136,7 @@ if ($eletkor > 64) {
     echo "<br>";
 }
 
-// --------------------------------------------------------------------------------------------------------------------------------------------------
-
-/*
-
-7. Feladat
-
-    Feladat: Írj egy programot, amely egy for ciklussal 100-tól visszafelé számol 0-ig, de csak azokat a számokat írja ki, amelyek oszthatóak 5-tel.
-*/
-
+echo "<h2>6.Feladat</h2>";
 echo "<h2>7.Feladat</h2>";
 echo "<h2>8.Feladat</h2>";
 echo "<h2>9.Feladat</h2>";

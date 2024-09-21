@@ -142,9 +142,15 @@ if ($eletkor > 64) {
 
 /*
 
-7. Feladat
+6. Feladat
 
-    Feladat: Írj egy programot, amely egy for ciklussal 100-tól visszafelé számol 0-ig, de csak azokat a számokat írja ki, amelyek oszthatóak 5-tel.
+    Feladat: Hozz létre egy $eletkor változót, amely egy ember életkorát tárolja. 
+    Írd ki, hogy milyen életkorcsoportba tartozik az ember az alábbi kategóriák alapján:
+        0-12 év: "Gyermek"
+        13-17 év: "Tinédzser"
+        18-64 év: "Felnőtt"
+        65 év felett: "Nyugdíjas"
+
 */
 
 echo "<h2>7.Feladat</h2>";

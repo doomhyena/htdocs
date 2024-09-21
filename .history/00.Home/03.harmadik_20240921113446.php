@@ -1,8 +1,6 @@
 <?php
 
 echo "<h1>Gyakorló Feladatsor</h1>";
-
-// --------------------------------------------------------------------------------------------------------------------------------------------------
 /*
 
 1. Feladat
@@ -47,14 +45,13 @@ $szam = 5;
 
 /*
 
-3. Feladat
+3.Feladat: Hozz létre egy $jegy változót, amely egy tanuló jegyét tartalmazza (1-5). Írd ki a megfelelő szöveget a jegyhez:
 
-    Feladat: Hozz létre egy $jegy változót, amely egy tanuló jegyét tartalmazza (1-5). Írd ki a megfelelő szöveget a jegyhez:
-        1: "Elégtelen"
-        2: "Elégséges"
-        3: "Közepes"
-        4: "Jó"
-        5: "Jeles"
+    1: "Elégtelen"
+    2: "Elégséges"
+    3: "Közepes"
+    4: "Jó"
+    5: "Jeles"
 
 */
 
@@ -97,56 +94,24 @@ print_r($paratlanok);
 
 */
 
-echo "<h2>5.Feladat</h2>";
-
 $szam = 5;
 
 
+
 // --------------------------------------------------------------------------------------------------------------------------------------------------
 
 /*
 
-6. Feladat
+5. Feladat
 
-    Feladat: Hozz létre egy $eletkor változót, amely egy ember életkorát tárolja. 
-    Írd ki, hogy milyen életkorcsoportba tartozik az ember az alábbi kategóriák alapján:
-        0-12 év: "Gyermek"
-        13-17 év: "Tinédzser"
-        18-64 év: "Felnőtt"
-        65 év felett: "Nyugdíjas"
+    Feladat: Hozz létre egy $szam változót, amely egy pozitív egész számot tartalmaz. 
+    Írj egy programot, amely kiszámolja és kiírja a szám faktoriálisát! 
+    (A faktoriális egy szám összes pozitív egész számú osztójának szorzata, pl. 5 faktoriálisa: 5*4*3*2*1 = 120).
 
 */
 
+echo "<h2>5.Feladat</h2>";
 echo "<h2>6.Feladat</h2>";
-
-$eletkor = 15;
-
-if ($eletkor < 12) {
-    echo "Gyermek";
-    echo "<br>";
-}
-if ($eletkor < 17) {
-    echo "Tinédzser";
-    echo "<br>";
-}
-if ($eletkor < 64) {
-    echo "Felnőtt";
-    echo "<br>";
-}
-if ($eletkor > 64) {
-    echo "Nyugdíjas";
-    echo "<br>";
-}
-
-// --------------------------------------------------------------------------------------------------------------------------------------------------
-
-/*
-
-7. Feladat
-
-    Feladat: Írj egy programot, amely egy for ciklussal 100-tól visszafelé számol 0-ig, de csak azokat a számokat írja ki, amelyek oszthatóak 5-tel.
-*/
-
 echo "<h2>7.Feladat</h2>";
 echo "<h2>8.Feladat</h2>";
 echo "<h2>9.Feladat</h2>";

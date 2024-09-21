@@ -97,9 +97,9 @@ print_r($paratlanok);
 
 */
 
-echo "<h2>5.Feladat</h2>";
-
 $szam = 5;
+
+echo "<h2>5.Feladat</h2>";
 
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------
@@ -108,45 +108,14 @@ $szam = 5;
 
 6. Feladat
 
-    Feladat: Hozz létre egy $eletkor változót, amely egy ember életkorát tárolja. 
-    Írd ki, hogy milyen életkorcsoportba tartozik az ember az alábbi kategóriák alapján:
+    Feladat: Hozz létre egy $eletkor változót, amely egy ember életkorát tárolja. Írd ki, hogy milyen életkorcsoportba tartozik az ember az alábbi kategóriák alapján:
         0-12 év: "Gyermek"
         13-17 év: "Tinédzser"
         18-64 év: "Felnőtt"
         65 év felett: "Nyugdíjas"
 
 */
-
 echo "<h2>6.Feladat</h2>";
-
-$eletkor = 15;
-
-if ($eletkor < 12) {
-    echo "Gyermek";
-    echo "<br>";
-}
-if ($eletkor < 17) {
-    echo "Tinédzser";
-    echo "<br>";
-}
-if ($eletkor < 64) {
-    echo "Felnőtt";
-    echo "<br>";
-}
-if ($eletkor > 64) {
-    echo "Nyugdíjas";
-    echo "<br>";
-}
-
-// --------------------------------------------------------------------------------------------------------------------------------------------------
-
-/*
-
-7. Feladat
-
-    Feladat: Írj egy programot, amely egy for ciklussal 100-tól visszafelé számol 0-ig, de csak azokat a számokat írja ki, amelyek oszthatóak 5-tel.
-*/
-
 echo "<h2>7.Feladat</h2>";
 echo "<h2>8.Feladat</h2>";
 echo "<h2>9.Feladat</h2>";
