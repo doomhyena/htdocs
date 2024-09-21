@@ -71,17 +71,6 @@ echo "<h2>3.Feladat</h2>";
 */
 
 echo "<h2>4.Feladat</h2>";
-
-$paratlanok = array();
-
-for ($i = 0; $i < 50; $i++) {
-    if ($i % 2 === 1) {
-        array_push($paratlanok, $i);
-    }
-}
-
-print_r($paratlanok);
-
 echo "<h2>5.Feladat</h2>";
 echo "<h2>6.Feladat</h2>";
 echo "<h2>7.Feladat</h2>";

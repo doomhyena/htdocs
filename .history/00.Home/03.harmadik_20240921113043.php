@@ -80,8 +80,6 @@ for ($i = 0; $i < 50; $i++) {
     }
 }
 
-print_r($paratlanok);
-
 echo "<h2>5.Feladat</h2>";
 echo "<h2>6.Feladat</h2>";
 echo "<h2>7.Feladat</h2>";

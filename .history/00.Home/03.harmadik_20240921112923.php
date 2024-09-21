@@ -75,12 +75,8 @@ echo "<h2>4.Feladat</h2>";
 $paratlanok = array();
 
 for ($i = 0; $i < 50; $i++) {
-    if ($i % 2 === 1) {
-        array_push($paratlanok, $i);
-    }
+    // kód
 }
-
-print_r($paratlanok);
 
 echo "<h2>5.Feladat</h2>";
 echo "<h2>6.Feladat</h2>";
