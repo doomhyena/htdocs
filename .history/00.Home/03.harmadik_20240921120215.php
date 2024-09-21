@@ -174,9 +174,7 @@ $ev = 2024;
 
 9. Feladat
 
-    Feladat: Írj egy programot, amely bekér egy számot a felhasználótól 
-    (pl. $szam), majd egy while ciklus segítségével folyamatosan felezi a számot, amíg az kisebb nem lesz, mint 1. 
-    Minden lépésnél írasd ki az aktuális értéket.
+    Feladat: Írj egy programot, amely bekér egy számot a felhasználótól (pl. $szam), majd egy while ciklus segítségével folyamatosan felezi a számot, amíg az kisebb nem lesz, mint 1. Minden lépésnél írasd ki az aktuális értéket.
 
 */
 

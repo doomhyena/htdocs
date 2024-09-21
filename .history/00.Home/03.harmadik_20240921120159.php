@@ -172,11 +172,11 @@ $ev = 2024;
 
 /*
 
-9. Feladat
+8. Feladat
 
-    Feladat: Írj egy programot, amely bekér egy számot a felhasználótól 
-    (pl. $szam), majd egy while ciklus segítségével folyamatosan felezi a számot, amíg az kisebb nem lesz, mint 1. 
-    Minden lépésnél írasd ki az aktuális értéket.
+    Feladat: Hozz létre egy $ev változót, amely tartalmaz egy évet. 
+    Írj egy programot, amely megvizsgálja, hogy az év szökőév-e! Szökőév minden olyan év, amely osztható 4-gyel, 
+    de nem osztható 100-zal, kivéve ha osztható 400-zal.
 
 */
 
