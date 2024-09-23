@@ -46,29 +46,34 @@ for ($i = 1; $i < count($listlist); $i += 2) {
 
 echo "<h3> 5.Feladat </h3>";
 
+/*
+
 $kecske = array();
 
 for ($i = 0; $i < 1000; $i++) {
     $randi = rand(0, 5000);
-    if (!in_array($randi, $kecske)) {
+
+    while (!in_array($randi, $kecske)) {
         $kecske[] = $randi;
     }
 }
 
-$paros = 0;
-$paratlan = 0;
+for ($i = 0; $i < $kecske; $i++) {
+    $paros = 0;
+    $paratlan = 0;
 
-for ($i = 0; $i < count($kecske); $i++) {
-    if ($kecske[$i] % 2 == 0) {
+    if($randi%2 == 0) {
         $paros += 1;
-    } else {
+    } 
+    if ($randi == 1) {
         $paratlan += 1;
     }
 }
-echo "Páros számok száma: $paros";
+echo "$paros";
 echo "<br>";
-echo "Páratlan számok száma: $paratlan";
+echo "$paratlan";
 
+*/
 
 echo "<h3> 6.Feladat </h3>";
 
@@ -76,16 +81,16 @@ $kecske = array();
 
 for ($i = 0; $i < 100; $i++) {
     $randi = rand(0, 500);
-    while ($randi > 100 && $randi % 2 === 1) {
+
+    while ($randie > 100 && $randie % 2 === 1) {
         $kecske[] = $randi;
-        break;
     }
 }
 
 $legnagyobb = -1;
 
 for ($i = 0; $i < count($kecske); $i++) {
-    if ($kecske[$i] > $legnagyobb) {
+    if($kecske[$i] > $legnagyobb ) {
         $legnagyobb = $kecske[$i];
     }
 }
@@ -98,31 +103,16 @@ $bruh = array();
 
 for ($i = 0; $i < 100; $i++) {
     $randi = rand(0, 500);
-    if ($randi > 200 && $randi < 800) {
-        $bruh[] = $randi;
+
+    while ($randie > 200 && $randie < 800 && $randie) {
+        $kecske[] = $randi;
     }
+
 }
 
 $otszazalatt = 0;
 $otszazfelett = 0;
 
-for ($i = 0; $i < count($bruh); $i++) {
-    if ($bruh[$i] > 500) {
-        $otszazfelett += 1;
-    } elseif ($bruh[$i] < 500) {
-        $otszazalatt += 1;
-    }    
+for ($i = 0; $i < $count($bruh); $i++) {
+    // kód
 }
-
-$legkisebb = 501;
-
-for ($i = 0; $i < count($bruh); $i++) {
-    if ($kecske[$i] < $bruh) {
-        $bruh = $kecske[$i];
-    }
-}
-
-echo $otszazalatt;
-echo "<br>";
-echo $otszazfelett;
-echo "A legnayobb elem: $legkisebb";

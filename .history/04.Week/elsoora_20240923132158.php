@@ -114,15 +114,18 @@ for ($i = 0; $i < count($bruh); $i++) {
     }    
 }
 
-$legkisebb = 501;
+$legkisebb = -1;
 
 for ($i = 0; $i < count($bruh); $i++) {
-    if ($kecske[$i] < $bruh) {
+    if ($kecske[$i] > $bruh) {
         $bruh = $kecske[$i];
     }
 }
 
+echo "A legnayobb elem: $legkisebb";
+
+
 echo $otszazalatt;
 echo "<br>";
 echo $otszazfelett;
-echo "A legnayobb elem: $legkisebb";
+

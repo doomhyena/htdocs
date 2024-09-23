@@ -78,7 +78,6 @@ for ($i = 0; $i < 100; $i++) {
     $randi = rand(0, 500);
     while ($randi > 100 && $randi % 2 === 1) {
         $kecske[] = $randi;
-        break;
     }
 }
 
@@ -90,6 +89,7 @@ for ($i = 0; $i < count($kecske); $i++) {
     }
 }
 
+
 echo "A legnayobb elem: $legnagyobb";
 
 echo "<h3> 7.Feladat </h3>";
@@ -98,31 +98,25 @@ $bruh = array();
 
 for ($i = 0; $i < 100; $i++) {
     $randi = rand(0, 500);
-    if ($randi > 200 && $randi < 800) {
-        $bruh[] = $randi;
+
+    while ($randie > 200 && $randie < 800 && $randie) {
+        $kecske[] = $randi;
     }
+
 }
 
 $otszazalatt = 0;
 $otszazfelett = 0;
 
-for ($i = 0; $i < count($bruh); $i++) {
-    if ($bruh[$i] > 500) {
+for ($i = 0; $i < $count($bruh); $i++) {
+    while ($bruh[$i] > 500) {
         $otszazfelett += 1;
-    } elseif ($bruh[$i] < 500) {
+    }
+    while ($bruh[$i] < 500) {
         $otszazalatt += 1;
     }    
-}
-
-$legkisebb = 501;
-
-for ($i = 0; $i < count($bruh); $i++) {
-    if ($kecske[$i] < $bruh) {
-        $bruh = $kecske[$i];
-    }
 }
 
 echo $otszazalatt;
 echo "<br>";
 echo $otszazfelett;
-echo "A legnayobb elem: $legkisebb";

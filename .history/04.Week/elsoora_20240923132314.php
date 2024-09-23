@@ -122,6 +122,7 @@ for ($i = 0; $i < count($bruh); $i++) {
     }
 }
 
+
 echo $otszazalatt;
 echo "<br>";
 echo $otszazfelett;

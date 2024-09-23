@@ -90,6 +90,7 @@ for ($i = 0; $i < count($kecske); $i++) {
     }
 }
 
+
 echo "A legnayobb elem: $legnagyobb";
 
 echo "<h3> 7.Feladat </h3>";
@@ -98,6 +99,8 @@ $bruh = array();
 
 for ($i = 0; $i < 100; $i++) {
     $randi = rand(0, 500);
+
+    // Helyesen $randi használata és break hozzáadása
     if ($randi > 200 && $randi < 800) {
         $bruh[] = $randi;
     }
@@ -106,6 +109,7 @@ for ($i = 0; $i < 100; $i++) {
 $otszazalatt = 0;
 $otszazfelett = 0;
 
+// Javított count() használat és if a while helyett
 for ($i = 0; $i < count($bruh); $i++) {
     if ($bruh[$i] > 500) {
         $otszazfelett += 1;
@@ -114,15 +118,7 @@ for ($i = 0; $i < count($bruh); $i++) {
     }    
 }
 
-$legkisebb = 501;
-
-for ($i = 0; $i < count($bruh); $i++) {
-    if ($kecske[$i] < $bruh) {
-        $bruh = $kecske[$i];
-    }
-}
-
 echo $otszazalatt;
 echo "<br>";
 echo $otszazfelett;
-echo "A legnayobb elem: $legkisebb";
+
