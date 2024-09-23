@@ -46,8 +46,6 @@ for ($i = 1; $i < count($listlist); $i += 2) {
 
 echo "<h3> 5.Task </h3>";
 
-/*
-
 $kecske = array();
 
 for ($i = 0; $i < 1000; $i++) {
@@ -72,8 +70,6 @@ for ($i = 0; $i < $kecske; $i++) {
 echo "$paros";
 echo "<br>";
 echo "$paratlan";
-
-*/
 
 echo "<h3> 6.Task </h3>";
 echo "<h3> 7.Task </h3>";
