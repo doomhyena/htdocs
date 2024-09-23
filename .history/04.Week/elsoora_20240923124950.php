@@ -1,7 +1,7 @@
 <?php
 
-echo "<h1> 4.Hét </h1>";
-echo "<h2> 01.Óra </h2>";
+echo "<h1> 4.H </h1>";
+echo "<h2> Lesson 01 </h2>";
 echo "<h3> 1.Feladat </h3>";
 
 echo "Csontos Kincső";
