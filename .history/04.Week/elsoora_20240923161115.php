@@ -132,7 +132,3 @@ for ($i = 0; $i < count($lista); $i++) {
         $legkisebb = $lista[$i];
     }
 }
-
-echo "Ötszáz fölötti számok száma: ". $otszaznagy;
-echo "Ötszáz alatti számok száma". $otszazkicsi;
-echo "A lista legkisebb eleme:". $legkisebb;

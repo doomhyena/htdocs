@@ -96,10 +96,8 @@ echo "<h3> 7.Feladat </h3>";
 
 $lista = array();
 
-/*
-
 while(count($lista) <100) {
-    $randomszam = rand(0, 1000);
+    $randomszam = rand(0, 1000)
     if($randomszam > 500) {
         if($randomszam < 800) {
             if($randomszam%2 === 0) {
@@ -107,32 +105,4 @@ while(count($lista) <100) {
             }
         }
     }
-} 
-
-*/
-
-if($rnadomszam > 200 && $randomszam < 800 && $randomszam % 2 === 0) {
-    $lista[] = $randi;
 }
-
-$otszaznagy = 0;
-$otszazkicsi = 0;
-$legkisebb = 801;
-
-for ($i = 0; $i < count($lista); $i++) {
-    if($lista[$i] > 500) {
-        $otszaznagy++;
-    }
-}
-for ($i = 0; $i < count($lista); $i++) {
-    if($lista[$i] < 500) {
-        $otszazkicsi++;
-    }
-    if ($lista[$i] < $legkisebb) {
-        $legkisebb = $lista[$i];
-    }
-}
-
-echo "Ötszáz fölötti számok száma: ". $otszaznagy;
-echo "Ötszáz alatti számok száma". $otszazkicsi;
-echo "A lista legkisebb eleme:". $legkisebb;

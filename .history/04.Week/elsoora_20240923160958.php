@@ -117,7 +117,6 @@ if($rnadomszam > 200 && $randomszam < 800 && $randomszam % 2 === 0) {
 
 $otszaznagy = 0;
 $otszazkicsi = 0;
-$legkisebb = 801;
 
 for ($i = 0; $i < count($lista); $i++) {
     if($lista[$i] > 500) {
@@ -128,11 +127,6 @@ for ($i = 0; $i < count($lista); $i++) {
     if($lista[$i] < 500) {
         $otszazkicsi++;
     }
-    if ($lista[$i] < $legkisebb) {
-        $legkisebb = $lista[$i];
-    }
 }
 
-echo "Ötszáz fölötti számok száma: ". $otszaznagy;
-echo "Ötszáz alatti számok száma". $otszazkicsi;
-echo "A lista legkisebb eleme:". $legkisebb;
+$legkisebb = 801
