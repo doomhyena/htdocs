@@ -88,7 +88,7 @@ for ($i = 0; $i < count($kecske); $i++) {
     if ($kecske[$i] > $legnagyobb) {
         $legnagyobb = $kecske[$i];
     }
-} // TO EASy
+} // TO EASEY
 
 echo "A legnayobb elem: $legnagyobb";
 
