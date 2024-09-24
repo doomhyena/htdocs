@@ -141,23 +141,5 @@ echo "<h3> 8.Feladat </h3>";
 
 $lista = array();
 while (count($lista ) < 50) {
-    $random = rand(0, 2000);
-
-    if ($randomszam > 800) {
-        if ($randomszam < 1600) {
-            if ($randomszam % 2 === 0) {
-                $lista[] = $random;
-            }
-        }
-    }
+    $random = rand(0, 2000)
 }
-
-$neggyelosztható = 0;
-
-for ($i = 0; $i < 10; $i++) {
-    // kód
-    if($lista[$i] % 4 === 0) {
-        $neggyelosztható++;
-    }
-}
-echo $neggyelosztható;

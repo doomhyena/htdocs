@@ -152,12 +152,8 @@ while (count($lista ) < 50) {
     }
 }
 
-$neggyelosztható = 0;
-
-for ($i = 0; $i < 10; $i++) {
-    // kód
-    if($lista[$i] % 4 === 0) {
-        $neggyelosztható++;
+for ($i = 0; $i < count($lista); $i++) {
+    if ($lista[i] % 2 === 4) {
+        echo $list[$i];
     }
 }
-echo $neggyelosztható;
