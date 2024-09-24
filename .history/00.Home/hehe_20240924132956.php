@@ -34,9 +34,13 @@ Számoknál NEM kell, hacsak nem szövegként akarjuk tárolni
 
 */
 
-$String = "Ez egy szöveg"; //Ez egy string változó
-$Integer = 5; // Ez egy integer változó
-$Float = 3.14; // Ez egy float változó
-$Boolean = true;  // Ez egy boolean változó
-$Array = [2, 3, 56]; // Ez egy array változó
-$NULL = NULL; // Ez egy null változó
+$String = "Ez egy szöveg";
+$Integer = 5;
+$Float = "Ez egy szöveg";
+$String = "Ez egy szöveg";
+$String = "Ez egy szöveg";
+$String = "Ez egy szöveg";
+$String = "Ez egy szöveg";
+$String = "Ez egy szöveg";
+$String = "Ez egy szöveg";
+$String = "Ez egy szöveg";

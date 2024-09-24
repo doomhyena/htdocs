@@ -34,9 +34,17 @@ Számoknál NEM kell, hacsak nem szövegként akarjuk tárolni
 
 */
 
-$String = "Ez egy szöveg"; //Ez egy string változó
-$Integer = 5; // Ez egy integer változó
-$Float = 3.14; // Ez egy float változó
-$Boolean = true;  // Ez egy boolean változó
-$Array = [2, 3, 56]; // Ez egy array változó
-$NULL = NULL; // Ez egy null változó
+$String = "Ez egy szöveg";
+$Integer = 5;
+$Float = 3.14;
+$Boolean = true;
+$Array = [2, 3, 56];
+$Object = "Ez egy szöveg";
+$NULL = NULL;
+
+var_dump(5);
+var_dump("John");
+var_dump(3.14);
+var_dump(true);
+var_dump([2, 3, 56]);
+var_dump(NULL);

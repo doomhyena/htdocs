@@ -38,5 +38,5 @@ $String = "Ez egy szöveg"; //Ez egy string változó
 $Integer = 5; // Ez egy integer változó
 $Float = 3.14; // Ez egy float változó
 $Boolean = true;  // Ez egy boolean változó
-$Array = [2, 3, 56]; // Ez egy array változó
-$NULL = NULL; // Ez egy null változó
+$Array = [2, 3, 56];
+$NULL = NULL;
