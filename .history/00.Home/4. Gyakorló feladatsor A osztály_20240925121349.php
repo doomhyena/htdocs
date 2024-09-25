@@ -11,7 +11,7 @@ echo "<h2>A osztály</h2>";
 */
 echo "<h3>1.Feladat</h3>";
 
-echo "Csontos Kincső";
+
 
 echo "<h3>2.Feladat</h3>";
 
