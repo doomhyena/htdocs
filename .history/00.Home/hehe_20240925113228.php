@@ -41,3 +41,5 @@ $Boolean = true;  // Ez egy boolean változó
 $Array = [2, 3, 56]; // Ez egy array változó
 $NULL = NULL; // Ez egy null változó
 
+
+require 'config.php';
