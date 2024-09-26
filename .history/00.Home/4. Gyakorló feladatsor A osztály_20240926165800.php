@@ -29,13 +29,11 @@ while(count($lista) < 100) {
     $rando = rand(0, 500);
 
     if(!in_array($rando, $lista)) {
-        $lista[] = $rando;
+        $lista[] = $random;
     }
 } 
 
 print_r($lista);
-
-// ----------------------------------------------------------------------
 
 echo "<h3>4.Feladat</h3>";
 

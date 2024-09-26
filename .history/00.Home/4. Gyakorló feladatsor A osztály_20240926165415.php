@@ -25,21 +25,6 @@ echo ($a * $b * $c * $d) / ($a + $d);
 echo "<h3>3.Feladaz</h3>";
 
 $lista = array();
-while(count($lista) < 100) {
-    $rando = rand(0, 500);
-
-    if(!in_array($rando, $lista)) {
-        $lista[] = $rando;
-    }
-} 
-
-print_r($lista);
-
-// ----------------------------------------------------------------------
-
-echo "<h3>4.Feladat</h3>";
-
-$lista = array();
 
 for ($i = 0; $i < 100; $i++) {
     $random_szam = rand(0, 500);
@@ -49,19 +34,23 @@ for ($i = 0; $i < 100; $i++) {
     }
 }
 
-if (count($lista) > 0) {
-    $legkisebb = $lista[0];  // Az első elemre állítjuk a kezdőértéket
+echo "<h3>4.Feladat</h3>";
 
-    for ($i = 1; $i < count($lista); $i++) {
-        if ($lista[$i] < $legkisebb) {
-            $legkisebb = $lista[$i];
-        }
+$legkisebb = 101;
+
+
+for ($i = 0; $i < 100; $i++) {
+    $random_szam = rand(0, 500);
+
+    if ($random_szam > 100 && $random_szam % 2 === 0) {
+        $lista[] = $random_szam;
     }
-    print_r($lista);
-    echo "<br>";
-    echo "A lista legkisebb eleme: $legkisebb";
 }
-
+for ($i = 0; $i < count($lista); $i++) {
+    if ($lista[$i] < $legkisebb) {
+        $legkisebb = $lista[$i];
+    }
+}
 
 print_r($lista);
 echo "<br>";

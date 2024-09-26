@@ -25,18 +25,13 @@ echo ($a * $b * $c * $d) / ($a + $d);
 echo "<h3>3.Feladaz</h3>";
 
 $lista = array();
-while(count($lista) < 100) {
-    $rando = rand(0, 500);
+while(count($kecske) < 100) {
+    $rando = rand(0, 1000);
 
-    if(!in_array($rando, $lista)) {
-        $lista[] = $rando;
+    if(!in_array($rando, $kecske)) {
+        array_push($kecske, $rando);
     }
 } 
-
-print_r($lista);
-
-// ----------------------------------------------------------------------
-
 echo "<h3>4.Feladat</h3>";
 
 $lista = array();

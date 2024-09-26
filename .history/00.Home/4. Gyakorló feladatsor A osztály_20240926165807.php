@@ -29,7 +29,7 @@ while(count($lista) < 100) {
     $rando = rand(0, 500);
 
     if(!in_array($rando, $lista)) {
-        $lista[] = $rando;
+        $lista[] = $random;
     }
 } 
 
