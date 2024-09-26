@@ -82,23 +82,18 @@ while(count($lista) < 100) {
 }
 
 if (count($lista) > 0) {
-    $legkisebb = $lista[0]; 
-    $legnagyobb = $lista[0];
-    // Legkisebb keresése
+    $legkisebb = $lista[0];  // Az első elemre állítjuk a kezdőértéket
+
     for ($i = 1; $i < count($lista); $i++) {
         if ($lista[$i] < $legkisebb) {
             $legkisebb = $lista[$i];
-        }
-        // Legnagyobb keresése
-        if ($lista[$i] > $legnagyobb) {
-            $legnagyobb = $lista[$i];
         }
     }
 
     print_r($lista);
     echo "<br>";
-    echo "A lista legkisebb eleme: $legkisebb <br>";
-    echo "A lista legnagyobb eleme: $legnagyobb";
+    echo "A lista legkisebb eleme: $legkisebb";
+}
 
 
 echo "<h3>6.Feladat</h3>";

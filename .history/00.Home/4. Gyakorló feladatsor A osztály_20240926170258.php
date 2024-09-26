@@ -82,8 +82,9 @@ while(count($lista) < 100) {
 }
 
 if (count($lista) > 0) {
-    $legkisebb = $lista[0]; 
-    $legnagyobb = $lista[0];
+    $legkisebb = $lista[0];  // Az első elemre állítjuk a kezdőértéket a legkisebbhez
+    $legnagyobb = $lista[0]; // Az első elemre állítjuk a kezdőértéket a legnagyobbhoz
+
     // Legkisebb keresése
     for ($i = 1; $i < count($lista); $i++) {
         if ($lista[$i] < $legkisebb) {
