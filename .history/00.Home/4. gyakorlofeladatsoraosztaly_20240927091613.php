@@ -17,7 +17,9 @@ $c = 8;
 $d = 3;
 
 echo $a * $b;
+echo "<br>";
 echo $c / $d;
+echo "<br>";
 echo ($a * $b * $c * $d) / ($a + $d);
 
 // ----------------------------------------------------------------------
@@ -69,7 +71,7 @@ echo "A lista legkisebb eleme: $legkisebb";
 
 // ----------------------------------------------------------------------
 
-
+/*
 echo "<h3>5.Feladat</h3>";
 
 $lista = array();
@@ -100,5 +102,32 @@ if (count($lista) > 0) {
     echo "A lista legkisebb eleme: $legkisebb <br>";
     echo "A lista legnagyobb eleme: $legnagyobb";
 
+}
+*/
+// ----------------------------------------------------------------------
 
 echo "<h3>6.Feladat</h3>";
+
+$lista = array();
+$hatszazkicsi = 0;
+$htszaznagy = 0;
+
+for ($i = 0; $i < 100; $ai++) {
+    $random_szam = rand(0, 1200);
+
+    if ($random_szam % 2 === 0 && $random_szam > 300 && $random_szam < 900) {
+        $lista[] = $random_szam;
+    }
+}
+
+for ($i = 0; $i < count($lista); $i++) {
+    if ($lista[$i] < 600) {
+        $hatszazkicsi++;
+    }
+    if ($lista[$i] > 600) {
+        $otszaznagy++;
+    }
+}
+
+echo "Ötszáz fölötti számok száma: ". $otszaznagy;
+echo "Ötszáz alatti számok száma". $otszazkicsi;
