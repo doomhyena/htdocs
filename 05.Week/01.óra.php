@@ -1,7 +1,8 @@
-<?php
+<?php // 2024/10/07
 
 echo "<h1> 5.Hét </h1>";
-echo "<h2> 1.feladat </h2>";
+echo "<h2> 2.Óra <\h>"
+echo "<h3> 1.feladat </h3>";
 
 $kulso_tomb = array();
 
@@ -20,7 +21,7 @@ for($i = 0; $i < 10; $i++) {
 
 print_r($kulso_tomb);
 
-echo "<h2> 2.feladat </h2>";
+echo "<h3> 2.feladat </h3>";
 
 $vezeteknevek = array("Nagy", "Kovács", "Tóth", "Szabó", "Horváth", "Varga", "Kiss")
 $keresztnevek = array("Dénes", "Géza", "Andárs", "Péter", "Zsolt", "János")
@@ -43,7 +44,7 @@ for($i = 0; $i < 10; $i++) {
 print_r($kulso_tombs);
 echo "<br>";
 
-echo "<h2> 2.feladat </h2>";
+echo "<h3> 3.feladat </h3>";
 
 $huszonotalatt = 0;
 
@@ -55,7 +56,7 @@ for($i = 0; $i < 10; $i++) {
 
 echo "$huszonotalatt személy fiatalabb 25-nél";
 
-echo "<h2> 2.feladat </h2>";
+echo "<h3> 4.feladat </h3>";
 
 for($i = 0; $i < 10; $i++) {
     $kulso_tomb[$i]['eletkor'] += rand(1, 10)
