@@ -69,4 +69,29 @@ print_r($kulso_tomb)
 
 for($i = 0; $i < 10; $i++) {}
 
+for($i = 0; $i < count($kulso_tomb); $i++) {
+
+    for($j = 0; $j < count($kulso_tomb); $j++) {
+
+        echo "$kulso_tomb[$i][$j]"
+
+    }
+    echo "<br>";
+}
+
+
 */
+
+for($i = 0; $i < count($kulso_tomb); $i++) {
+
+    for($j = 0; $j < count($kulso_tomb); $j++) {
+
+        if($kulso_tomb[$i][$j] == 0) {
+            echo "<img src = 'pics/kek.png' width='50px' height='50px'>"
+        } else {
+            echo "<img src = 'pics/zold.png' width='50px' height='50px'>"
+        }
+    }
+    echo "<br>";
+}
+
