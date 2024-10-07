@@ -18,10 +18,9 @@ A hónap egy random szám legyen 1 és 12 között. A nap legyen egy random szá
 
 */
 
-/*
-
 echo "<h3> 1.Feladat </h3>";
 
+/*
 $vezeteknevek = array("Nagy", "Kovács", "Tóth", "Szabó", "Horváth", "Varga", "Kiss");
 $keresztnevek = array("Dénes", "Géza", "András", "Péter", "Zsolt", "János");
 
@@ -38,5 +37,36 @@ for($i = 0; $i < 20; $i++) {
 
     $belso_tomb['keresznev']
 }
+
+*/
+
+/*
+
+2.Feladat:
+    Külsö tömb 10 db darab tartalmazzon
+    Belső tömbök 10 random számot tartalmazzanak 0 és 1 között
+
+*/
+echo "<h3> 2.Feladat </h3>";
+
+/*
+
+$kulso_tomb = array();
+
+for($i = 0; $i < 10; $i++) {
+
+    $belso_tomb = array();
+
+    for($i = 0; $i < 10; $i++) {
+
+
+
+    }
+    array_push($kulso_tomb, $belso_tomb)
+}
+
+print_r($kulso_tomb)
+
+for($i = 0; $i < 10; $i++) {}
 
 */
