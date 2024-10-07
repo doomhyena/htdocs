@@ -1,7 +1,8 @@
 <?php // 2024/10/07
 
-echo "<h1> 5.Hét";
-echo "<h2> 2.Óra";
+echo "<h1> 5.Hét </h1>";
+echo "<h2> 2.Óra </h2>";
+
 /*
 
 01.Feladat:
@@ -16,5 +17,26 @@ A nevekhez hanszáld az előző órai listákat. Az év egy random szám legyen 
 A hónap egy random szám legyen 1 és 12 között. A nap legyen egy random szám 1 és 28 között.
 
 */
-echo "<h3> 1.Feladat";
 
+/*
+
+echo "<h3> 1.Feladat </h3>";
+
+$vezeteknevek = array("Nagy", "Kovács", "Tóth", "Szabó", "Horváth", "Varga", "Kiss");
+$keresztnevek = array("Dénes", "Géza", "András", "Péter", "Zsolt", "János");
+
+$kulso_tomb = array();
+
+for($i = 0; $i < 20; $i++) {
+
+    $belso_tomb = array();
+    $randindex = ranad(0, count($vezeteknevek));
+
+    $belso_tomb['vezetéknév'] = $vezeteknevek[$randindex];
+
+    $randindex = rand (0, count($keresztnevek)-10);
+
+    $belso_tomb['keresznev']
+}
+
+*/
