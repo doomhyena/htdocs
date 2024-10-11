@@ -81,7 +81,7 @@ for($i = 0; $i < count($kulso_tomb); $i++) {
 
 
 */
-
+/*
 for($i = 0; $i < count($kulso_tomb); $i++) {
 
     for($j = 0; $j < count($kulso_tomb); $j++) {
@@ -97,3 +97,4 @@ for($i = 0; $i < count($kulso_tomb); $i++) {
     echo "<br>";
 }
 
+*/
