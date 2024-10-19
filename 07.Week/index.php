@@ -1,22 +1,29 @@
-<?php
-/* 
+<?
 
+    /*
+    
+        Feladat:
 
-*/
+            nevek = András, Béla, Csongor, Dénes, Emese, Ferenc, Géza
 
-session_start();
+            Session tömbben mentsd el a neveket
+            Generáltass egy linket minden névhez. A linkben csatold, hogy
+            hányadik indexen áll az adott nlv
 
-if(isset($_SESSION['tomb'])) {
-    print_r($_SESSION['tomb']);
-} else {
-    $_SESSION['tomb'] = array();
-}
+            A link a szemely.php oldalt nyissa meg. 
+            Írd ki azt a nevet, amelyiknek az indexét átadtad a linkben, majd generáltass neki egy random születési dátumot:
+            Év: 1998 és 2000 között
+            Hónap: 1 és 12 között
+            Nap: 1 és 28 között
 
-echo "<br>"
+    */
 
+    $nevek = ["András", "Béla", "Csongor", "Dénes", "Emese", "Ferenc", "Géza"];
+    $_SESSION['nevek'] = $nevek;
+
+    for ($index = 0; $index < count($nevek); $index++) {
+        $nev = $nevek[$index];
+        echo '<a href="szemely.php?index=' . $index . '">' . $nev . '</a><br>';
+    }
 
 ?>
-
-<a href="torles.php">Törlés</a>
-<a href="paros.php">Páros</a>
-<a href="paratlan.php">Páratlan</a>
