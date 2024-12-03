@@ -1,0 +1,126 @@
+<?php
+
+echo "<h2>2.hét Anyaga</h2>";
+/*
+
+$a = 10;
+$b = 5;
+
+echo "Csontos Kincső";
+echo "<br>";
+echo $a * $b;
+echo "<br>";
+echo $a + $b;
+
+*/
+
+// ------------------------------------------------
+
+/*
+
+$randomnumber = rand(0, 10);
+$randomnumber0 = rand(0, 10);
+
+echo $randomnumber;
+echo "<br>";
+
+$list = array("Albert", "Balázs", "Cecil", "Igor");
+$lista = array();
+
+print_r($list);
+echo "<br>";
+echo $list[3];
+echo "<br>";
+print_r($lista);
+echo "<br>";
+echo "A jelenlegi generált szám: ".$randomnumber0;
+echo "<br>";
+
+array_push($lista, $randomnumber0);
+print_r($lista);
+echo "<br>";
+
+*/
+
+// ------------------------------------------------
+
+/*
+
+$list = array("Albert", "Balázs", "Cecil", "Igor");
+$elemszam = count($list);
+echo $elemszam;
+
+
+*/
+
+// ------------------------------------------------
+
+/*
+
+$list = array("Albert", "Balázs", "Cecil", "Igor");
+
+//legmagasabb index
+$maxindex = count($list)-1;
+echo "Max index: ".$maxindex;
+echo "<br>";
+// Random Index generálása
+
+$randomindex = rand(0, $maxindex);
+
+echo "Random index: ".$randomindex;
+echo "<br>";
+echo "Lista random eleme: ".$list[$randomindex];
+
+*/
+
+// ------------------------------------------------
+
+// IF-ELSE
+echo "<h3>1.Feladat</h3>";
+
+$list = array("Albert", "Balázs", "Cecil", "Igor", "Kincső", "Kadosa");
+$lista = array();
+
+if(count($list) > 0) {
+    $maxindex = count($list)-1;
+    $randomindex = rand(0, $maxindex);
+    echo "Random index: ".$randomindex;
+} else {
+    echo "Nincsenek elemek a listában!";
+}
+
+echo "<br>";
+
+if(count($lista) > 0) {
+    $maxindex = count($lista)-1;
+    $randomindex = rand(0, $maxindex);
+    echo "Random index: ".$randomindex;
+} else {
+    echo "Nincsenek elemek a listában!";
+}
+
+echo "<h3>2.Feladat</h3>";
+
+$listlist = array();
+
+$randomszam = rand(0, 1000);
+array_push($listlist, $randomszam);
+
+$randomszam = rand(0, 1000);
+array_push($listlist, $randomszam);
+
+$randomszam = rand(0, 1000);
+array_push($listlist, $randomszam);
+
+$randomszam = rand(0, 1000);
+array_push($listlist, $randomszam);
+
+$randomszam = rand(0, 1000);
+array_push($listlist, $randomszam);
+
+print_r($listlist);
+
+$maxindex = count($listlist)-1;
+$randomindex = rand(0, $maxindex);
+
+?>

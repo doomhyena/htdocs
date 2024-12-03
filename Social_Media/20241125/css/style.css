@@ -1,0 +1,10 @@
+p {
+    max-width: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+#deleteform {
+    max-width: 200px; 
+    margin: 10px auto
+}

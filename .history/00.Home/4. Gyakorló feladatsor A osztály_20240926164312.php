@@ -1,0 +1,44 @@
+<?php
+
+echo "<h1>Gyakorló Feladatsor</h1>";
+echo "<h2>A osztály</h2>";
+
+echo "<h3>1.Feladat</h3>";
+
+echo "Csontos Kincső";
+
+// ----------------------------------------------------------------------
+
+echo "<h3>2.Feladat</h3>";
+
+$s = 2;
+$b = 4;
+$c = 8;
+$d = 3;
+
+echo $a * $b;
+echo $c / $d;
+echo ($a * $b * $c * $d) / ($a + $d);
+
+// ----------------------------------------------------------------------
+
+echo "<h3>3.Feladaz</h3>";
+
+$lista = array();
+
+for (i = 0; i < 10; i++) {
+    random_szam = rand(1, );
+    echo "A véletlenszám: " . random_szam;
+}
+
+// ----------------------------------------------------------------------
+
+echo "<h3>4.Feladat</h3>";
+
+
+
+echo "<h3>5.Feladat</h3>";
+
+
+
+echo "<h3>6.Feladat</h3>";
