@@ -9,9 +9,7 @@
 		
 		header("Location: reg.php");
 		
-	}
-	// Van bejelentkezett felhasználó
-	else{
+	} /* Van bejelentkezett felhasználó*/ else {
 		
 		// Bejelentkezéskor elmentett azonosítója a felhasználónak
 		$id = $_SESSION['id'];

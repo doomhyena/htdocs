@@ -10,30 +10,26 @@
 		
 		$password = $_POST['password'];
 		
-		// Lekérdezzük a megadott felhasználónév alapján, hogy van e olyan felhaszánló
 		$lekerdezes = "SELECT * FROM users WHERE username='$username'";
 		$talalt_felhasznalo = $conn->query($lekerdezes);
 		
-		// Megszámoltatjuk a talált sorokat
-		// Ha 0 az érték, akkor a lekérdezés nem talált megfelelő sort -> Nincs ilyen felhasználó
-		// Ha nagyobb mint 0, akkor létezik ilyen felhasználó.
 		if(mysqli_num_rows($talalt_felhasznalo) > 0){
 			
-			// Talált felhasználó sorának a felbontása tömbre
 			$felhasznalo = $talalt_felhasznalo->fetch_assoc();
 			
-			// Jó-e a beírt jelszó
 			if($felhasznalo['password'] == $password){
 				
 				$_SESSION['id'] = $felhasznalo['id'];
 				
 				header("Location: index.php");
 				
-			} else {
+			}
+			else{
 				echo "Hibás jelszó!";
 			}
 			
-		} else {
+		}
+		else{
 			
 			echo "Nincs ilyen felhasználó!";
 			
